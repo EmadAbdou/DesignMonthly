@@ -93,17 +93,119 @@ nav a span {
 /* ---------- Header ---------- */
 
 header {
-    height: 1000px;
-    min-height: 1000px;
+    height: 900px;
+    min-height: 900px;
     padding: 0 5%;
     background-image: url(../images/background-header.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom right;
-    background-position-x: 700px;
-    background-position-y: -300px;
+    background-size: 80%;
+    background-position-x: 600px;
+    background-position-y: -400px;
 }
-header h1{
+header h1 {
     width: 40%;
     margin: 2em 0 0 0;
+}
+
+/* ---------- Team ---------- */
+
+.team {
+    text-align: center;
+    padding:0 5%;
+    margin-top: -60px;
+    background-image: url(../images/background-team.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team h1 {
+    width: 50%;
+    margin: 0 auto 0px auto;
+}
+.members {
+    display: flex;
+    justify-content: center;
+}
+.person {
+    margin-top: 70px;
+    padding: 20px;
+}
+.person img {
+    border: 2px solid #5D72FF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.person  h3 {
+    color: #AEB8FF;
+    margin-bottom: 5px;
+}
+.person p {
+    color: #A7A3A3;
+}
+
+/* ---------- about ---------- */
+
+.about {
+    padding: 5% 5% 0 5%;
+    background-image: url(../images/background-about.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50%;
+    background-position-x: -100px;
+    height: 900px;
+    min-height: 900px;
+}
+.about h1 {
+    margin-bottom: 30px;
+    padding-top:250px;
+}
+.icons img {
+    margin-right:30px;
+}
+.about h1,.icons {
+    margin-left: 50%;
+}
+
+/* ---------- Call To Action ---------- */
+
+.callToAction {
+    text-align: center;
+    padding: 6em 5% 20em 5%;
+    background-image: url(../images/background-calltoaction.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+    
+    
+}
+.callToAction h1,
+.callToAction a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 60px;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    padding: 0 5%;
+    margin-bottom:40px;
+    color:#5D72FF;
+}
+footer p, .pages {
+    display: inline-block;
+}
+footer .pages {
+    float: right;
+}
+footer .pages a {
+    text-decoration: none;
+    font-weight: 100;
+    color:#5D72FF;
+    margin-left:30px;
+
 }
