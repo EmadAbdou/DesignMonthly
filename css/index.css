@@ -1,0 +1,109 @@
+/* ---------- global ---------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html {
+    font-family:sans-serif;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+}
+h1{
+    font-size: 48px;
+    font-weight: 100;
+    color: #5D72FF;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+.btnOutline{
+    display: block;
+    text-decoration: none;
+    color: #5D72FF;
+    border:2px solid #5D72FF;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+.btnFilled{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #5D72FF;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ---------- nav ---------- */
+
+nav{
+    line-height: 100px;
+    text-align: right;
+   /* padding: 0 40px 0 40px; */
+}
+nav a {
+    text-decoration: none;
+    color: #5D72FF;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav a:first-child{
+    float: left;
+}
+nav a img {
+    vertical-align: middle;
+}
+nav a span {
+    color: white;
+    background-color: #5D72FF;
+    padding: 5px 15px;
+    font-weight: 100;
+    margin-left: 7px;
+    border-radius:1000px ;
+    -webkit-border-radius:1000px ;
+    -moz-border-radius:1000px ;
+    -ms-border-radius:1000px ;
+    -o-border-radius:1000px ;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    height: 1000px;
+    min-height: 1000px;
+    padding: 0 5%;
+    background-image: url(../images/background-header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    background-position-x: 700px;
+    background-position-y: -300px;
+}
+header h1{
+    width: 40%;
+    margin: 2em 0 0 0;
+}
